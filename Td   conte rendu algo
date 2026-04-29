@@ -16,7 +16,7 @@ Utilisation dans des tableaux
 
 Les opérations sont généralement en O(1) (accès direct aux champs).
 
- --->TD2 : Complexité et récursivité
+--->TD2 : Complexité et récursivité
 
 
    Objectifs
@@ -36,7 +36,8 @@ Multiplication récursive (type russe)
 Boucle simple → O(n)
 Boucle imbriquée → O(n²)
 Récursivité Fibonacci naïve → O(2ⁿ)
-  --->TD3 : Listes, piles et files
+
+--->TD3 : Listes, piles et files
 
 
    3.1 Création d’une liste
@@ -86,7 +87,7 @@ Vérification avec une pile
 
   Complexité : O(n)
 
-  --->TD4 : Arbres Binaires de Recherche
+--->TD4 : Arbres Binaires de Recherche
 
 
   Fonctions demandées
