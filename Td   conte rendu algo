@@ -1,0 +1,143 @@
+--->TD1 : Structures
+
+Ce TD introduit la notion de structures en C, qui permettent de regrouper plusieurs variables de types différents sous une même entité.
+
+   Objectifs
+Définir une structure (ex : point, personne, tableau structuré)
+Manipuler les champs d’une structure
+Passer une structure à une fonction
+Créer des tableaux de structures
+    Points clés
+Une structure est définie avec struct
+Accès aux champs avec l’opérateur .
+Passage par valeur ou par adresse (pointeur)
+Utilisation dans des tableaux
+   Complexité
+
+Les opérations sont généralement en O(1) (accès direct aux champs).
+
+ --->TD2 : Complexité et récursivité
+
+
+   Objectifs
+
+Comprendre la complexité (temps d’exécution)
+Analyser des boucles imbriquées
+Implémenter des fonctions récursives
+Comparer récursivité vs itération
+   Exercices ;
+Recherche d’élément → complexité linéaire O(n)
+Sommes imbriquées → souvent O(n²)
+Fonctions récursives :
+Factorielle
+Fibonacci
+Multiplication récursive (type russe)
+   Complexités typiques
+Boucle simple → O(n)
+Boucle imbriquée → O(n²)
+Récursivité Fibonacci naïve → O(2ⁿ)
+  --->TD3 : Listes, piles et files
+
+
+   3.1 Création d’une liste
+Génération de 100 entiers aléatoires
+Insertion dans une liste chaînée
+
+  Complexité : O(n)
+
+  3.2 Recherche d’une valeur
+Parcours de la liste
+Retour booléen
+
+  Complexité : O(n)
+
+  3.3 Suppression du minimum
+Trouver le minimum → O(n)
+Supprimer le nœud → O(n)
+
+  Complexité totale : O(n)
+
+  3.4 Fusion de deux listes
+Fusion alternée des éléments
+
+  Complexité : O(m + n)
+
+  3.5 Destruction d’une liste
+Libération mémoire de chaque nœud
+
+   Complexité : O(n)
+
+  3.6 Piles
+Implémentation avec liste chaînée
+Opérations :
+push (empiler)
+pop (dépiler)
+ Exercice Pair/Impair
+Réorganisation des éléments :
+pairs en bas
+impairs en haut
+
+  Complexité : O(n)
+
+  3.7 Files (queues)
+  Palindrome
+Stockage du message dans une file
+Vérification avec une pile
+
+  Complexité : O(n)
+
+  --->TD4 : Arbres Binaires de Recherche
+
+
+  Fonctions demandées
+  Recherche d’un élément
+
+  O(h) (h = hauteur)
+
+  Nombre d’occurrences
+
+  O(n)
+
+  Parcours infixé
+
+  O(n)
+
+  ABR → Liste triée
+
+  O(n)
+
+  Liste → ABR
+
+  O(n log n) (si équilibré)
+
+  Tri via ABR
+
+  O(n log n) (moyen), O(n²) (pire cas)
+
+  Vérification d’un ABR
+Vérifie si l’arbre respecte les propriétés
+
+  Complexité : O(n)
+
+  Conclusion générale:
+
+  Structures statiques et dynamiques 
+
+Structures
+Listes chaînées
+Piles et files
+
+  Analyse de complexité 
+
+O(1), O(n), O(n²), O(2ⁿ)
+
+  Récursivité
+
+Factorielle
+Fibonacci
+Parcours d’arbres
+
+  Structures avancées 
+
+Arbres binaires de recherche
+Tri via ABR
